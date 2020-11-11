@@ -1,7 +1,20 @@
 <?php
 function tentukan_nilai($number)
 {
-    //  kode disini
+    switch ($number) {
+        case $number >=85 && $number <=100:
+            return "Sangat baik";
+            break;
+        case $number >=70 && $number < 85:
+            return "Baik";
+            break;
+        case $number >=60 && $number < 70:
+            return "Cukup";
+            break;    
+        default:
+            return "Kurang";
+            break;
+    }
 }
 
 //TEST CASES
