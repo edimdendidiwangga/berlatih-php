@@ -1,6 +1,7 @@
 <?php
 function tentukan_nilai($number)
 {
+    echo "<br>";
     switch ($number) {
         case $number >=85 && $number <=100:
             return "Sangat baik";
